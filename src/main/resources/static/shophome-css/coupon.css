@@ -1,0 +1,40 @@
+.coupon {
+	width: 300px;
+	height: 100px;
+	background-color: #E4CD8D;
+	display: flex;
+	float: right;
+	margin-top: 150px;
+	cursor: pointer;
+	color: #4F4E4D;
+}
+
+.leftcoupon {
+	width: 60%;
+	background: radial-gradient(circle at top right, white 5px, transparent 0)
+		top right,
+		radial-gradient(circle at bottom right, white 5px, transparent 0)
+		bottom right;
+	text-align: center;
+	font-size: 30px;
+	line-height: 100px;
+}
+
+.rightcoupon {
+	width: 40%;
+	background: radial-gradient(circle at top left, white 5px, transparent 0)
+		top left,
+		radial-gradient(circle at bottom left, white 5px, transparent 0)
+		bottom left;
+	text-align: center;
+	font-size: 25px;
+	line-height: 100px;
+}
+
+.leftcoupon::after {
+	content: "";
+	display: block;
+	height: 90px;
+	margin-top: 5px;
+	border-right: 2px dashed white;
+}
