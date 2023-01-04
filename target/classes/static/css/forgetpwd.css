@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #4F4E4D;
+    font-size: 20px;
+}
+
+body{
+    background-image: url("../img/pexels-johannes-plenio-1103970.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div.login-box{
+    width: 400px;
+}
+
+button.btn{
+    background-color: #E4CD8D;
+    color: #4F4E4D;
+    border: none;
+}
+
+button.btn:hover{
+    background-color: #f0d383;
+    color: #4F4E4D;
+}
+
+h1.reset{
+    font-weight: bolder;
+}
+
+.login-box-msg{
+	text-align: left;
+}
+
+div.error li{
+	list-style: none;
+}
+
+div.backtoindex{
+	position: relative;
+	top: -10%;
+	left: -45%;
+}
+
+a.index{
+	margin-top: 30px;
+	margin-left: 30px; 
+	padding: 10px;
+	background-color: white;
+	opacity: 0.5;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+a.index:hover{
+	opacity: 1;
+	transition: all 0.3s ease-in;
+}
+
+span.back{
+	font-weight: bolder;
+	color: #0d6efd;
+}
